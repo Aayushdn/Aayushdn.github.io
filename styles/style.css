@@ -17,7 +17,7 @@ body{
     overflow-x: hidden;
 }
 
-/* Font and Text Style */
+/* -------------------------------------------------Font and Text Style -------------------------------------------*/
 
 nav li{
     font-family: 'Montserrat', sans-serif;
@@ -30,7 +30,7 @@ nav li{
     font-weight: 700;
     font-size: 48px;
     background: linear-gradient(to right, #6C63FF, #F5A9A9 );
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -41,11 +41,14 @@ nav li{
     color: rgba(0, 0, 0, 0.37);
 }
 
-/* Layout */
+/* ---------------------------------------- Layout ---------------------------------------------------------*/
 
 .wrapper{
     margin: 0 90px;
 }
+
+
+/* Navbar and header section */
 
 nav{
     display: flex;
@@ -62,13 +65,7 @@ header nav li{
     display: inline-block;
     padding: 30px;
 }
-
-.wave{
-    width: 100vw;
-    position: absolute;
-    bottom: -100px;
-    
-}
+ /*  Content Section */
 
 .content{
     display: flex;
@@ -84,4 +81,55 @@ header nav li{
 
 .leftImg img{
     width: 550px;
+}
+
+/* Wave */
+.wave{
+    width: 100vw;
+    position: absolute;
+    bottom: -100px;
+    
+    
+}
+
+/* --------------------------------------------- Responsiveness ---------------------------------------------- */
+
+@media screen and (max-width:450px) {
+    header{
+        margin: 25px 0;
+    }
+    nav ul{
+        padding: 20px 0;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        width: 63px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .wrapper{
+        margin: 0 0px;
+    }
+
+    .leftImg{
+        display: none;
+    }
+    
+    .rightTxt{
+        width: 100%;
+        text-align: center;
+    }
+    .wave{
+        width: 100vw;
+        height: auto;
+        bottom: -20px;
+    }
+    
 }

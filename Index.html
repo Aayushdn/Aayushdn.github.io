@@ -15,7 +15,7 @@
         <!-- Navbar -->
         <header>
             <nav>
-                <img src="./images/logo.svg">
+                <img src="./images/logo.svg" class="logo">
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -41,13 +41,12 @@
 
     </div>
     <!-- Wave -->
-    <svg class="wave" width="1366" height="434" viewBox="0 0 1366 434" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M-24 294C77.3333 216.667 431 129 779 325C1151 534.517 1350.67 174.333 1366 1V74V596H-24V294Z"
-            fill="#0C2C5C" fill-opacity="0.95" />
-        <path
-            d="M779 325C431 129 77.3333 216.667 -24 294V596H1366M779 325C1151 534.517 1350.67 247.333 1366 74V596M779 325C1151 534.517 1350.67 174.333 1366 1V596"
-            stroke="white" stroke-opacity="0.95" />
-    </svg>
+    <!-- <img src="./images/wave.svg" class="wave"> -->
+    <picture class="wave"> 
+        <source media="(max-width: 450px)" srcset="./images/waveMobile.svg">
+        <img src="./images/wave.svg" class="wave">
+    </picture>
+      
 
 </body>
 
