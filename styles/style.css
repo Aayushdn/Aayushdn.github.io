@@ -22,13 +22,13 @@ body{
 nav li{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .contentHead{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     background: linear-gradient(to right, #6C63FF, #F5A9A9 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -37,7 +37,7 @@ nav li{
 .rightTxt p{
     font-family: 'Handlee', cursive;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.8rem;
     color: rgba(0, 0, 0, 0.37);
 }
 
@@ -75,12 +75,9 @@ header nav li{
 .rightTxt{
     padding: 0px 0;
 }
-.leftImg{
-    padding-top: 32px;
-}
 
 .leftImg img{
-    width: 550px;
+    width: 550px; 
 }
 
 /* Wave */
@@ -100,7 +97,7 @@ header nav li{
     } */
     /* nav ul{
         padding: 20px 0;
-    } */
+    } */    
     header nav{
         display: flex;
         flex-direction: column;
