@@ -95,12 +95,12 @@ header nav li{
 /* --------------------------------------------- Responsiveness ---------------------------------------------- */
 
 @media screen and (max-width:450px) {
-    header{
+    /* header{
         margin: 25px 0;
-    }
-    nav ul{
+    } */
+    /* nav ul{
         padding: 20px 0;
-    }
+    } */
     header nav{
         display: flex;
         flex-direction: column;
@@ -117,6 +117,7 @@ header nav li{
     .wrapper{
         margin: 0 0px;
     }
+    
 
     .leftImg{
         display: none;
@@ -128,8 +129,7 @@ header nav li{
     }
     .wave{
         width: 100vw;
-        height: auto;
-        bottom: -20px;
+        bottom: -50px;
     }
     
 }
