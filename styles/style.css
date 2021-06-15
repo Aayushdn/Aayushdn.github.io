@@ -31,6 +31,7 @@ nav li{
     font-size: 3rem;
     background: linear-gradient(to right, #6C63FF, #F5A9A9 );
     -webkit-background-clip: text;
+            background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -86,12 +87,14 @@ header nav li{
 .wave{
     width: 100vw;
     position: absolute;
-    bottom: -100px;
+    bottom: -200px;
     
     
 }
 
+
 /* --------------------------------------------- Responsiveness ---------------------------------------------- */
+
 
 @media screen and (max-width:450px) {
     /* header{
@@ -112,7 +115,9 @@ header nav li{
         display: flex;
         justify-content: space-around;
     }
-    
+    .contentHead{
+        font-size: 3rem;
+    }    
 
     .wrapper{
         padding: 0 0;
@@ -128,8 +133,36 @@ header nav li{
         text-align: center;
     }
     .wave{
-        width: 100vw;
-        bottom: -100px;
+        display: none;
     }
     
 }
+
+
+
+
+@media screen and (min-width:451px) and (max-width:1200px) {
+
+    .content{
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .rightTxt h1{
+        font-size: 6rem;
+    }
+
+    .rightTxt p{
+        font-size: 3rem;
+    }
+    .leftImg{
+        display: none;
+    }
+
+    .wave{
+        display: none;
+    }
+}
+
+
