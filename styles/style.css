@@ -114,7 +114,7 @@ header nav li{
     }
     nav ul{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
     .contentHead{
         font-size: 3rem;
@@ -155,7 +155,7 @@ header nav li{
         padding-top: 20px;
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .content{
